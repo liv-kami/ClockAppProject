@@ -1,0 +1,121 @@
+body{
+    background-color: aliceblue;
+}
+
+.bg{
+    background-color: #414141;
+    height: 650px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.label{
+    translate: 8% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.time{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate: -50% -50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FCD52A;
+    font-size: 60px;
+    z-index: 3;
+
+}
+
+.buttons{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate: -50% 300%;
+}
+.ibuttons{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    translate: -50% 300%;
+}
+button{
+    height: 60px;
+    width: 60px;
+    background-color: #FCD52A;
+    border: none;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.play, .reset, .home, .stopwatch, .timer{
+    color: white;
+
+}
+
+.material-icons{
+    position: relative;
+    scale: 150%;
+    top: 2.5%;
+}
+
+.hidden{
+    display: none;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 100%;
+    border: 10px solid #D2D2D2;
+    z-index: 1;
+}
+
+button > * {
+    pointer-events: none;
+}
+
+.indexLabel{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 20px;
+}
+
+.homeButton{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    translate: -50% -50%;
+}
+.pr{
+    position: absolute;
+    top: 45.3%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 2;
+}
+.pr-ring, .pr-ring-circle{
+    z-index: 2;
+}
+.pr-ring-circle{
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-linecap: round;
+    
+}

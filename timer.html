@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    </head>
+    <body>
+        <div class="bg">
+            <div class="label">Stopwatch</div>
+            <div class="pr">
+                <svg class="pr-ring" height="360" width="360">
+                    <circle class="pr-ring-circle" cx="180" cy="180" r="155" stroke="#FCD52A" stroke-width="10" fill="transparent" />
+                </svg>
+            </div>
+            <div class="circle"></div>
+            <div class="time">00:00:00</div>
+            <div class="buttons">
+                <button class="play" data-action="play" data-mode="stop">
+                    <i class="material-icons">play_arrow</i>
+                </button>
+                <button class="reset" data-action="reset" data-mode="stop">
+                    <i class="material-icons">refresh</i>
+                </button>
+            </div>
+            <div class="homeButton">
+                <a href="index.html">
+                    <button class="home">
+                        <i class="material-icons">home</i>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
